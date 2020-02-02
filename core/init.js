@@ -5,19 +5,25 @@ const Router = require('koa-router')
 class InitManage{
     static initCore(app){
         InitManage.app = app
-        this.whenLoadRouter()
+        InitManage.whenLoadRouter()
+        InitManage.loadException()
     }
 
 
     static whenLoadRouter(){
         const apiDirectory = `${process.cwd()}/app/api`
-        const modules = requireDirectory(module, apiDirectory, {
+        requireDirectory(module, apiDirectory, {
             visit: (obj) => {
                 if(obj instanceof Router){
                     InitManage.app.use(obj.routes())
                 }
             }
-        })
+        });
+    }
+
+    static loadException(){
+        const errors = require('./http-expetion')
+        global.errs = errors
     }
 }
 
