@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e101ac6f-7820-4632-8b0e-0072cf071f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/http-expetion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/exception.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +84,7 @@
       <workItem from="1580546962851" duration="4861000" />
       <workItem from="1580623471456" duration="255000" />
       <workItem from="1580623847517" duration="1121000" />
+      <workItem from="1580698325171" duration="729000" />
     </task>
     <servers />
   </component>

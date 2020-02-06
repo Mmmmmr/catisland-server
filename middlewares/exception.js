@@ -8,9 +8,16 @@ const catchError = async (ctx, next) => {
             ctx.body = {
                 msg: error.msg,
                 errorCode: error.errorCode,
-                path: `${ctx.method} ${ctx.path}`
+                request: `${ctx.method} ${ctx.path}`
             }
             ctx.status = error.code
+        } else {
+            ctx.body = {
+                msg: 'we made a mistake~~~',
+                errorCode: 999,
+                request: `${ctx.method} ${ctx.path}`
+            }
+            ctx.status = 500
         }
     }
 }
