@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e101ac6f-7820-4632-8b0e-0072cf071f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/validators/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/lin-validator-v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/lin-validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/http-expetion.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/http-exception.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/exception.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/node_modules/ms/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/node_modules/ms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ms/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ms/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/enum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/validators/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/validators/validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +96,7 @@
       <workItem from="1580962058115" duration="933000" />
       <workItem from="1580992967123" duration="4880000" />
       <workItem from="1581003159437" duration="2168000" />
-      <workItem from="1581045577870" duration="2775000" />
+      <workItem from="1581045577870" duration="6766000" />
     </task>
     <servers />
   </component>
@@ -127,6 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="707" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581049587504">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="707" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.-240.1920.1040@0.0.1920.1160" timestamp="1581049587504" />
     <state x="723" y="489" key="#xdebugger.evaluate" timestamp="1580550559742">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -216,6 +197,10 @@
     </state>
     <state x="2381" y="-41" key="SettingsEditor/0.0.1920.1160/1920.-240.1920.1040@1920.-240.1920.1040" timestamp="1581004879366" />
     <state x="461" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1580624046490" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1581050282205">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.-240.1920.1040@0.0.1920.1160" timestamp="1581050282205" />
     <state x="2544" y="-10" width="672" height="608" key="search.everywhere.popup" timestamp="1580997084529">
       <screen x="1920" y="-240" width="1920" height="1040" />
     </state>
