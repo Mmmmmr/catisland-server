@@ -1,10 +1,16 @@
-const {HttpException} = require("../core/http-expetion");
+const {HttpException} = require("../core/http-exception");
 
 const catchError = async (ctx, next) => {
     try {
         await next()
     } catch (error) {
-        if(error instanceof HttpException){
+        const isHttpException = error instanceof HttpException
+        const isDev = global.config.environment === 'dev'
+        if(isDev && !isHttpException) {
+            throw error
+        }
+
+        if(isHttpException){
             ctx.body = {
                 msg: error.msg,
                 errorCode: error.errorCode,

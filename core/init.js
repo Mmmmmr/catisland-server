@@ -7,6 +7,7 @@ class InitManage{
         InitManage.app = app
         InitManage.whenLoadRouter()
         InitManage.loadException()
+        InitManage.loadConfig()
     }
 
 
@@ -21,8 +22,14 @@ class InitManage{
         });
     }
 
+    static loadConfig(path = ''){
+        const configPath = path || process.cwd() + '/config/config.js'
+        const config = require(configPath)
+        global.config = config
+    }
+
     static loadException(){
-        const errors = require('./http-expetion')
+        const errors = require('./http-exception')
         global.errs = errors
     }
 }
