@@ -18,12 +18,27 @@ class User extends Model {
         }
         return user
     }
+
+    static async getUserByOpenid(openid){
+        const user = await User.findOne({
+            where: {
+                openid
+            }
+        })
+        return user
+    }
+
+    static async registryByOpenid(openid){
+       const user = User.create({
+           openid
+       });
+       return user
+    }
 }
 
 User.init({
     nickname: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING
     },
     email: {
         type: Sequelize.STRING(128),
