@@ -1,0 +1,38 @@
+const {Movie, Music, Sentence} = require('./classic')
+
+class Art {
+    static async getData(art_id, type){
+
+        let art = null
+        const finder = {
+            where: {
+                id: art_id
+            }
+        }
+
+        switch (type) {
+            case 100:
+                art = await Movie.findOne(finder)
+                break
+            case 200:
+                art = await Music.findOne(finder)
+                break
+            case 300:
+                art = await Sentence.findOne(finder)
+                break
+            case 400:
+                break
+            default:
+                break
+        }
+        // if (art && art.image) {
+        //     let imgUrl = art.dataValues.image
+        //     art.dataValues.image = global.config.host + imgUrl
+        // }
+        return art
+    }
+}
+
+module.exports = {
+    Art
+}
