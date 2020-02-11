@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e101ac6f-7820-4632-8b0e-0072cf071f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/model/hot-book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/inroduce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/movie.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/movie.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/music.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/music.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/music.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/music.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentence.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentence.6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/art.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/art.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -41,12 +60,13 @@
     <property name="ts.external.directory.path" value="E:\workplace\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\crazycat\Desktop\catisland\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crazycat\Desktop\catisland\static" />
       <recent name="C:\Users\crazycat\Desktop\catisland" />
       <recent name="C:\Users\crazycat\Desktop\catisland\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crazycat\Desktop\catisland\app" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
@@ -99,7 +119,8 @@
       <workItem from="1581139469906" duration="6149000" />
       <workItem from="1581215555475" duration="1548000" />
       <workItem from="1581264822223" duration="324000" />
-      <workItem from="1581303062353" duration="2595000" />
+      <workItem from="1581303062353" duration="6160000" />
+      <workItem from="1581414067515" duration="249000" />
     </task>
     <servers />
   </component>
