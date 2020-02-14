@@ -5,7 +5,6 @@ const {
 } = require('sequelize')
 
 class Flow extends Model{
-    static
 }
 
 Flow.init({

@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e101ac6f-7820-4632-8b0e-0072cf071f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/model/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/inroduce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/movie.4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/movie.8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/music.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/music.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/music.5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/music.7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentence.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentence.6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/art.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/art.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/flow.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +100,10 @@
       <workItem from="1581215555475" duration="1548000" />
       <workItem from="1581264822223" duration="324000" />
       <workItem from="1581303062353" duration="6160000" />
-      <workItem from="1581414067515" duration="249000" />
+      <workItem from="1581414067515" duration="2020000" />
+      <workItem from="1581483151124" duration="5000" />
+      <workItem from="1581512727260" duration="1281000" />
+      <workItem from="1581651852422" duration="3095000" />
     </task>
     <servers />
   </component>

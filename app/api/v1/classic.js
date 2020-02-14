@@ -10,10 +10,6 @@ const {
     ClassicValidator
 } = require('../../validators/validator')
 
-const router = new Router({
-    prefix: '/v1/classic'
-})
-// 别名 alias module-alias
 const {
     Auth
 } = require('../../../middlewares/auth')
@@ -22,6 +18,9 @@ const {
     Art
 } = require('../../model/art')
 
+const router = new Router({
+    prefix: '/v1/classic'
+})
 
 router.get('/latest', new Auth().m, async (ctx, next) => {
 
