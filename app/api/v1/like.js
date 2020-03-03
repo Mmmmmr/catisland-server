@@ -19,7 +19,7 @@ router.post('/dislike', new Auth().m, async (ctx) => {
     const v = await new LikeValidator().validate(ctx,{
         id:'art_id'
     })
-    await Favor.dislike(v.get('body.art_id'), v.get('body.type'), ctx.auth.uid)
+    await Favor.disLike(v.get('body.art_id'), v.get('body.type'), ctx.auth.uid)
     throw new global.errs.Success()
 })
 

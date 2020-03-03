@@ -68,6 +68,7 @@ router.post('/add/short_comment', new Auth().m, async ctx => {
     const v = await new AddShortCommentValidator().validate(ctx,{
         id:'book_id'
     })
+
     Comment.addComment(v.get('body.book_id'),v.get('body.content'))
     success()
 })
@@ -97,15 +98,7 @@ router.get('/hot_keyword', async ctx => {
             '王小波'
         ]
     }
-    // 搜索次数最多
-    // 一部分参考算法，人工编辑
-    // Lin-CMS，编辑热门关键字的功能
 })
 
-// 爬虫 必备工具 数据处理和分析
-// KOA
-// Python 爬虫工具 requests，BF4，Scrapy
-// node.js 正则表达式
-// 找工作 第二语言
 
 module.exports = router
