@@ -1,7 +1,7 @@
 module.exports = {
     environment: 'prod',
     database: {
-        dbName:'catland',
+        dbName:'catisland',
         host:'ciliuciliu.club',
         port:3306,
         user:'root',
